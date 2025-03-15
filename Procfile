@@ -1,1 +1,1 @@
-web: gunicorn simpleLogin.wsgi
+gunicorn simpleLogin.wsgi:application
